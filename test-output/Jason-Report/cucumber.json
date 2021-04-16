@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 568198800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Manager user navigates to Login Page",
+            "match": {
+              "location": "LoginStepDef.managerUserNavigatesToLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User is Able to Login to the FreeCRM site with Manager Credentials",
+        "description": "",
+        "id": "login-feature-in-free-crm-site;user-is-able-to-login-to-the-freecrm-site-with-manager-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDef.userIsAlreadyOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "title of Login Page is Free CRM",
+            "match": {
+              "location": "LoginStepDef.titleOfLoginPageIsFreeCRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enters Username and Password",
+            "match": {
+              "location": "LoginStepDef.userEntersUsernameAndPassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Clicks on Login Button",
+            "match": {
+              "location": "LoginStepDef.userClicksOnLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "LoginStepDef.userIsOnHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature in Free CRM site",
+    "description": "Verify that Manager user is able to Login to FreeCRM site",
+    "id": "login-feature-in-free-crm-site",
+    "keyword": "Feature",
+    "uri": "MyFeature/CRMFeatures/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Manager"
+      }
+    ]
+  }
+]

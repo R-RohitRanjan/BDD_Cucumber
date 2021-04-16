@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="6" tests="6" time="0">
+    <testcase classname="Free CRM App Feature Test" name="User is Able to Login to the Free CRM App" time="0">
+        <skipped>
+            <![CDATA[Given user is already on Login Page.........................................undefined
+When title of Login Page is Free CRM........................................undefined
+Then user Enters Username and Password......................................undefined
+Then user Clicks on Login Button............................................undefined
+Then user is on Home Page...................................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Free CRM App Feature Test" name="User is Able to Successful LogOut from Free CRM App" time="0">
+        <skipped>
+            <![CDATA[Given user is on HomePage...................................................undefined
+When User LogOut from the Application.......................................undefined
+Then Message displayed LogOut Successfully..................................undefined
+Then user is on Login Page..................................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Free CRM App Feature Test" name="User is Able to Create a New Contact in Free CRM App" time="0">
+        <skipped>
+            <![CDATA[Given user is on Home Page..................................................undefined
+When user Mouseover on Contacts Link........................................undefined
+Then user user Clicks on New Contact Link...................................undefined
+Then user Enters Firstname and Lastname.....................................undefined
+Then user Clicks on Save Button in New Contact Page.........................undefined
+Then user Verify New Contact Created........................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Free CRM App Feature Test" name="User is Able to Create a New Company in Free CRM App" time="0">
+        <skipped>
+            <![CDATA[Given user is on Home Page..................................................undefined
+When user Mouseover on Companies Link.......................................undefined
+Then user user Clicks on New Company Link...................................undefined
+Then user Enters Company Name and Industry..................................undefined
+Then user Clicks on Save Button in New Company Page.........................undefined
+Then user Verify New Company Created........................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Free CRM App Feature Test" name="User is able to create a new deal in Free CRM App" time="0">
+        <skipped>
+            <![CDATA[Given user is on home page..................................................undefined
+When user Mouseover to Deal Link............................................undefined
+Then user user Clicks on New Deal Link......................................undefined
+And user verify Deal Number.................................................undefined
+Then user Enters Deal Details...............................................undefined
+Then user Clicks on Save Button in New deal Page............................undefined
+Then user Verify New Deal Created...........................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Free CRM App Feature Test" name="free crm create mail test" time="0">
+        <skipped>
+            <![CDATA[Given user is on home page..................................................undefined
+When user Mouseover to mail Link............................................undefined
+Then user is on mail page...................................................undefined
+And user fills the mail form................................................undefined
+Then mail is created........................................................undefined
+Then user Clicks on Save Button in New Email Page...........................undefined
+Then user Verify New mail Created...........................................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>
